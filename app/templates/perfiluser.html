@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil</title>
     <link rel="stylesheet" href="{{url_for('static',filename='css/sperfiluser.css')}}">
-    <link rel="icon" type="image/x-icon" href="{% static "img/logo.ico" %}">
+    <link rel="icon" type="image/x-icon" href="{{url_for('static',filename='img/logo.ico')}}">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
 
@@ -63,7 +63,7 @@
     <header>
 		<div class="container">
 		<div class="btn-menu" style="margin-left: 9%;">
-            <img class="logoe" src="{%static 'img/logo.png'%}" alt="HT" >
+            <img class="logoe" src="{{url_for('static',filename='img/logo.png')}}" alt="HT" >
 		</div>
 			<div class="logo">
 				<h1>HUMAN TALENT</h1>

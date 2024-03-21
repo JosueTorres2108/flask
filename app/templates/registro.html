@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{url_for('static',filename='css/registro2.css')}}">
-    <link rel="icon" type="image/x-icon" href="{% static 'img/logo.ico' %}">
+    <link rel="icon" type="image/x-icon" href="{{url_for('static',filename='img/logo.ico')}}">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <title>Bienvenido a mi Formulario</title>
 </head>
@@ -37,12 +37,12 @@
                 <aside class="btn-social">
                     <button class="btn-facebook">
                         <picture>
-                            <img src="/static/img/baseline-facebook.svg" alt="" width="25px" height="25px">
+                            <img src="{{url_for('static',filename='img/baseline-facebook.svg')}}" alt="" width="25px" height="25px">
                         </picture>
                     </button>
                     <button class="btn-gmail">
                         <picture>
-                            <img src="/static/img/google-gmail.svg" alt="" width="20px" height="25px">
+                            <img src="{{url_for('static',filename='img/google-gmail.svg')}}" alt="" width="20px" height="25px">
                         </picture>
                     </button>
                 </aside>
@@ -103,12 +103,12 @@
                 <aside class="btn-social">
                     <button class="btn-facebook">
                         <picture>
-                            <img src="/static/img/baseline-facebook.svg" alt="" width="25px" height="25px">
+                            <img src="{{url_for('static',filename='img/baseline-facebook.svg')}}" alt="" width="25px" height="25px">
                         </picture>
                     </button>
                     <button class="btn-gmail">
                         <picture>
-                            <img src="/static/img/google-gmail.svg" alt="" width="20px" height="25px">
+                            <img src="{{url_for('static',filename='img/google-gmail.svg')}}" alt="" width="20px" height="25px">
                         </picture>
                     </button>
                 </aside>
