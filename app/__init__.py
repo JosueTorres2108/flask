@@ -4,7 +4,7 @@ from flask_migrate import Migrate
 
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root@localhost/flask'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root@localhost/flaskjosue'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 
